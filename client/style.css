@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+#title{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#general-joke-button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    border: none;
+    background-color: #e6002b;
+    color: #fff;
+    cursor: pointer;
+}
+
+#general-joke-button:hover{
+    background-color: #424242;
+}
+
+#form-title{
+    text-align: center;
+    margin-top: 7%;
+}
+
+#new-joke-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 2%;
+}
+
+#new-joke-form label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#new-joke-form input{
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#personal-joke{
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#personal-joke:hover{
+    background-color: #424242;
+}
+
+p{
+    margin: 5%;
+    text-align: center;
+}

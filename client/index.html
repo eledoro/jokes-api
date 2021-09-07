@@ -14,16 +14,21 @@
     <p id="general-joke-container"></p>
 
     <h1 id="form-title">Custom Joke Generator</h1>
-    <form id="new-joke-form">
+    <form id="new-joke-form" onsubmit="return false">
         <!-- <label for="name">Category</label>
         <input type="text" id="name" required /> -->
 
-        <label for="age">Rating</label>
-        <input type="number" id="age" required />
+        <label for="rating-input">Rating</label>
+        <input id="rating-input" type="text" required />
 
         <!-- <input id="personal-joke" type="submit" value="Click here to receive a personalised bad joke"> -->
-        <button id="personal-joke" type="submit">Click here to receive a personalised bad joke</button>
+        <input type="submit" id="rated-joke" value="Click here to receive a joke with your rating input" >
+
+        <!-- Rated Joke Contianer-->
+        <p id="rated-joke-container"></p>
     </form>
+
+        <button id="clear-jokes">Remove Jokes</button>
 
 </body>
 </html>

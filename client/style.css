@@ -58,7 +58,7 @@ body{
     width: 30%;
 }
 
-#personal-joke{
+#rated-joke{
     margin: 0 auto;
     border: none;
     margin-top: 20px;
@@ -70,11 +70,27 @@ body{
     width: 40%;
 }
 
-#personal-joke:hover{
+#rated-joke:hover{
     background-color: #424242;
 }
 
 p{
     margin: 5%;
     text-align: center;
+}
+
+#clear-jokes{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    padding: 12px;
+    background-color: #424242;
+    color: #fff;
+    cursor: pointer;
+}
+
+#clear-jokes:hover{
+    background-color: #929292;
+    color: black;
 }

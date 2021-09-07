@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Joke = require('../model/joke');
 
-router.get('/jokes', (req, res) => {
+router.get('/', (req, res) => {
     const jokesData = Joke.all;
     res.send(jokesData);
 })

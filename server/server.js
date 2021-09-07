@@ -13,17 +13,17 @@ let obj =  {id: 7, name: 'joke 7', rating: 4}
 const data = require('./data.js');
 
 //Here say at the /jokes route - use our joke Router - this sends the request to the jokes.js inside the controller 
-// const jokeRoutes = require('./controller/jokes');
-// app.use('/jokes', jokeRoutes);
+const jokeRoutes = require('./controller/jokes');
+app.use('/jokes', jokeRoutes);
 
 //Root case
 app.get('/', (req, res) => {
     res.send('Welcome to the root of the jokes server');
 })
 
-app.get('/jokes', (req, res) => {
-    res.send(data);
-})
+// app.get('/jokes', (req, res) => {
+//     res.send(data);
+// })
 
 // POST REQUESTS 
 app.post('/jokes', (req, res) => {

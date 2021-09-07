@@ -39,22 +39,27 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
     margin-top: 2%;
 }
 
 #new-joke-form label{
+    margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+
 }
 
 #new-joke-form input{
+    margin: 0 auto;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     outline: none;
+    width: 30%;
 }
 
 #personal-joke{
+    margin: 0 auto;
     border: none;
     margin-top: 20px;
     padding: 15px;
@@ -62,6 +67,7 @@ body{
     color: #fff;
     font-size: 14px;
     cursor: pointer;
+    width: 40%;
 }
 
 #personal-joke:hover{

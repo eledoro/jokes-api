@@ -9,11 +9,11 @@ generateJoke.addEventListener('click', () => {
        .then(response => response.json())
        .then(data = (data) => {
             console.log(data);
-            console.log(data[0].text);
+            console.log(data[0].id.text);
             let num = Math.round(Math.random() * 9) + 1
             // console.log(num);
             let element =  `
-            <p>${data[num].text}</p>
+            <p>${data[num].id.text}</p>
             `;
             jokeContainer.insertAdjacentHTML("afterend", element);
         })

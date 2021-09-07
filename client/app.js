@@ -17,7 +17,7 @@ generateJoke.addEventListener('click', () => {
             let element =  `
             <p>${data[num].id.text}</p>
             `;
-            jokeContainer.insertAdjacentHTML("afterend", element);
+            jokeContainer.insertAdjacentHTML("beforeend", element);
         })
 })
 
@@ -60,5 +60,6 @@ ratedJoke.addEventListener('click', () => {
 let clearButton = document.getElementById('clear-jokes');
 clearButton.addEventListener('click', () => {
     ratedContainer.textContent = '';
+    jokeContainer.textContent = '';
 })
 

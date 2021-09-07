@@ -19,6 +19,7 @@ body{
     display: flex;
     margin: 0 auto;
     margin-top: 5%;
+    margin-bottom: 2%;
     padding: 20px;
     border: none;
     background-color: #e6002b;
@@ -32,7 +33,7 @@ body{
 
 #form-title{
     text-align: center;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 #new-joke-form{
@@ -75,7 +76,8 @@ body{
 }
 
 p{
-    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
 }
 
@@ -88,6 +90,7 @@ p{
     background-color: #424242;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 5%;
 }
 
 #clear-jokes:hover{
